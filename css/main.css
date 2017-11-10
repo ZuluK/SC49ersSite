@@ -1,99 +1,54 @@
 
-html,
-body {
-  height: 100%;
-  background-color: #000;
-}
 
-body.imgEff {
+body {
 margin:0;
 padding:0;
 color: #fff;
-background: url(../img/white.jpg) right bottom no-repeat;
-transition: all 5s ease-in-out;
+/*background: url(../img/TRUCKSTOPMOMweb.jpg) right bottom no-repeat;*/
+background-color: ghostwhite;
 -moz-background-position: center top;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+background-position: 50% 50%;
 position: relative;
 }
-/*body.imgEff:hover {
-  margin:0;
-  padding:0;
-  color: #fff;
-  background-image: url(../img/redtop2.jpg);
-  background-position: 50% 0%;
-  transition: all 5s ease-in-out;
-  -moz-background-position: center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
-  position: relative;
-}*/
-div.col-md-12 .head {
-  bottom: 47px;
+
+
+img:hover {
+  opacity: 0.5;
+}
+.logoPosition {
+  padding: 114px;
 }
 
-.foot {
-  top: 200px;
+footer{
+  background: url(../img/TRUCKSTOPMOMweb.jpg) right bottom no-repeat;
 }
-h1{
-	font-size: 90px;
-  letter-spacing: 28px;
-  padding-left: 8px;
-  margin-left: 13%;
-  padding-top: 13%;
+footer .links{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
 }
-h1.brandName {
-  font-family:'gravity';
+footer .links a > i{
+    font-size: 2.3em;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-h2{
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 29px;
-	letter-spacing: 6px;
-  display: inline-block;
-  margin-left: 12%;
+footer .links a > i:hover{
+    color: white;
 }
-
-p {
-  margin-left: 14%;
+footer .links .ccopy{
+    margin-top: 25px;
+    font-size: 0.86em;
 }
-.fa{
-  color: white;
-  padding: 16px;
+footer .links .ccopy > i{
+    color: darkred;
+    margin: 0;
+    padding: 3px
 }
-/*i.fa-instagram i.fa-envelope-o {
-  font-size: 30px;
-
-}*/
-.social {
-  margin-left: 18%;
-  font-size: 20px;
-}
-div.comingSoon {
-  margin-top: 54px;
-}
-/*-- custom fonts --*/
-@font-face {
-	font-family: 'kenzo';
-	src: url('fonts/Kenzo-Regular.otf');
-	font-style: normal;
-	font-weight: 100;
-}
-@font-face {
-	font-family:'gravity';
-	src: url('fonts/Gravity-Light.otf');
-	font-style: normal;
-	font-weight: 100;
-}
-@font-face {
-	font-family:'lane';
-	src: url('fonts/LANENAR_.ttf');
-	font-style: normal;
-	font-weight: 100;
-}
+ .progress {
+   display: none;
+ }
